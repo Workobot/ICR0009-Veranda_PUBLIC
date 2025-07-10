@@ -8,11 +8,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2025
 		Month: 7
-		Day: 9
-		Hour: 13
-		Minute: 12
-		Second: 5
-		Millisecond: 353
+		Day: 10
+		Hour: 12
+		Minute: 14
+		Second: 38
+		Millisecond: 39
 	}
 	Creator: "FBX SDK/FBX Plugins version 2020.3.4"
 	OtherFlags:  {
@@ -76,7 +76,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 1857810176944, "Scene", "Scene" {
+	Document: 1888743045104, "Scene", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -96,12 +96,12 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 15
+	Count: 16
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
 	ObjectType: "Model" {
-		Count: 12
+		Count: 13
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -221,7 +221,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 1852916344384, "Geometry::Scene", "Mesh" {
+	Geometry: 1901078675008, "Geometry::Scene", "Mesh" {
 		Vertices: *24 {
 			a: -50,-50,50,50,-50,50,-50,50,50,50,50,50,-50,50,-50,50,50,-50,-50,-50,-50,50,-50,-50
 		} 
@@ -330,7 +330,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 1862265740736, "Model::Veranada_Dummys", "Null" {
+	Model: 1886206576688, "Model::Veranada_Dummys", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -341,7 +341,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1862265758736, "Model::Cube__1_", "Mesh" {
+	Model: 1886206588688, "Model::Cube__1_", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -356,7 +356,22 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265748736, "Model::Veranda_T1__1_", "Null" {
+	Model: 1886206578688, "Model::Cube__2_", "Mesh" {
+		Version: 232
+		Properties70:  {
+			P: "RotationOrder", "enum", "", "",4
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
+			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",-1460.00003814697,430.599975585938,6009.99984741211
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0,-141.481994628906,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",74.6489944458008,8.49470043182373,23.2604827880859
+		}
+		Shading: W
+		Culling: "CullingOff"
+	}
+	Model: 1886206574688, "Model::Veranda_T1__1_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -367,7 +382,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1862265754736, "Model::Cube__1__1", "Mesh" {
+	Model: 1886206594688, "Model::Cube__1__1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -382,7 +397,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265760736, "Model::Cube__2_", "Mesh" {
+	Model: 1886206580688, "Model::Cube__2__1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -397,7 +412,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265750736, "Model::Cube__3_", "Mesh" {
+	Model: 1886206596688, "Model::Cube__3_", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -412,7 +427,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265746736, "Model::Cube__4_", "Mesh" {
+	Model: 1886206592688, "Model::Cube__4_", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -427,7 +442,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265764736, "Model::Veranda_T2__1_", "Null" {
+	Model: 1886206582688, "Model::Veranda_T2__1_", "Null" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -438,7 +453,7 @@ Objects:  {
 		Shading: Y
 		Culling: "CullingOff"
 	}
-	Model: 1862265766736, "Model::Cube__1__2", "Mesh" {
+	Model: 1886206598688, "Model::Cube__1__2", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -453,7 +468,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265762736, "Model::Cube__2__1", "Mesh" {
+	Model: 1886206584688, "Model::Cube__2__2", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -468,7 +483,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265768736, "Model::Cube__3__1", "Mesh" {
+	Model: 1886206600688, "Model::Cube__3__1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -483,7 +498,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Model: 1862265756736, "Model::Cube__4__1", "Mesh" {
+	Model: 1886206590688, "Model::Cube__4__1", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "RotationOrder", "enum", "", "",4
@@ -498,7 +513,7 @@ Objects:  {
 		Shading: W
 		Culling: "CullingOff"
 	}
-	Material: 1842777954592, "Material::DefaultHDMaterial", "" {
+	Material: 1886143020112, "Material::DefaultHDMaterial", "" {
 		Version: 102
 		ShadingModel: "lambert"
 		MultiLayer: 0
@@ -520,94 +535,103 @@ Objects:  {
 Connections:  {
 	
 	;Model::Veranada_Dummys, Model::RootNode
-	C: "OO",1862265740736,0
+	C: "OO",1886206576688,0
 	
 	;Model::Cube__1_, Model::Veranada_Dummys
-	C: "OO",1862265758736,1862265740736
+	C: "OO",1886206588688,1886206576688
+	
+	;Model::Cube__2_, Model::Veranada_Dummys
+	C: "OO",1886206578688,1886206576688
 	
 	;Model::Veranda_T1__1_, Model::Veranada_Dummys
-	C: "OO",1862265748736,1862265740736
+	C: "OO",1886206574688,1886206576688
 	
 	;Model::Veranda_T2__1_, Model::Veranada_Dummys
-	C: "OO",1862265764736,1862265740736
+	C: "OO",1886206582688,1886206576688
 	
 	;Material::DefaultHDMaterial, Model::Cube__1_
-	C: "OO",1842777954592,1862265758736
+	C: "OO",1886143020112,1886206588688
 	
 	;Geometry::Scene, Model::Cube__1_
-	C: "OO",1852916344384,1862265758736
-	
-	;Model::Cube__1__1, Model::Veranda_T1__1_
-	C: "OO",1862265754736,1862265748736
-	
-	;Model::Cube__2_, Model::Veranda_T1__1_
-	C: "OO",1862265760736,1862265748736
-	
-	;Model::Cube__3_, Model::Veranda_T1__1_
-	C: "OO",1862265750736,1862265748736
-	
-	;Model::Cube__4_, Model::Veranda_T1__1_
-	C: "OO",1862265746736,1862265748736
-	
-	;Material::DefaultHDMaterial, Model::Cube__1__1
-	C: "OO",1842777954592,1862265754736
-	
-	;Geometry::Scene, Model::Cube__1__1
-	C: "OO",1852916344384,1862265754736
+	C: "OO",1901078675008,1886206588688
 	
 	;Material::DefaultHDMaterial, Model::Cube__2_
-	C: "OO",1842777954592,1862265760736
+	C: "OO",1886143020112,1886206578688
 	
 	;Geometry::Scene, Model::Cube__2_
-	C: "OO",1852916344384,1862265760736
+	C: "OO",1901078675008,1886206578688
 	
-	;Material::DefaultHDMaterial, Model::Cube__3_
-	C: "OO",1842777954592,1862265750736
+	;Model::Cube__1__1, Model::Veranda_T1__1_
+	C: "OO",1886206594688,1886206574688
 	
-	;Geometry::Scene, Model::Cube__3_
-	C: "OO",1852916344384,1862265750736
+	;Model::Cube__2__1, Model::Veranda_T1__1_
+	C: "OO",1886206580688,1886206574688
 	
-	;Material::DefaultHDMaterial, Model::Cube__4_
-	C: "OO",1842777954592,1862265746736
+	;Model::Cube__3_, Model::Veranda_T1__1_
+	C: "OO",1886206596688,1886206574688
 	
-	;Geometry::Scene, Model::Cube__4_
-	C: "OO",1852916344384,1862265746736
+	;Model::Cube__4_, Model::Veranda_T1__1_
+	C: "OO",1886206592688,1886206574688
 	
-	;Model::Cube__1__2, Model::Veranda_T2__1_
-	C: "OO",1862265766736,1862265764736
+	;Material::DefaultHDMaterial, Model::Cube__1__1
+	C: "OO",1886143020112,1886206594688
 	
-	;Model::Cube__2__1, Model::Veranda_T2__1_
-	C: "OO",1862265762736,1862265764736
-	
-	;Model::Cube__3__1, Model::Veranda_T2__1_
-	C: "OO",1862265768736,1862265764736
-	
-	;Model::Cube__4__1, Model::Veranda_T2__1_
-	C: "OO",1862265756736,1862265764736
-	
-	;Material::DefaultHDMaterial, Model::Cube__1__2
-	C: "OO",1842777954592,1862265766736
-	
-	;Geometry::Scene, Model::Cube__1__2
-	C: "OO",1852916344384,1862265766736
+	;Geometry::Scene, Model::Cube__1__1
+	C: "OO",1901078675008,1886206594688
 	
 	;Material::DefaultHDMaterial, Model::Cube__2__1
-	C: "OO",1842777954592,1862265762736
+	C: "OO",1886143020112,1886206580688
 	
 	;Geometry::Scene, Model::Cube__2__1
-	C: "OO",1852916344384,1862265762736
+	C: "OO",1901078675008,1886206580688
+	
+	;Material::DefaultHDMaterial, Model::Cube__3_
+	C: "OO",1886143020112,1886206596688
+	
+	;Geometry::Scene, Model::Cube__3_
+	C: "OO",1901078675008,1886206596688
+	
+	;Material::DefaultHDMaterial, Model::Cube__4_
+	C: "OO",1886143020112,1886206592688
+	
+	;Geometry::Scene, Model::Cube__4_
+	C: "OO",1901078675008,1886206592688
+	
+	;Model::Cube__1__2, Model::Veranda_T2__1_
+	C: "OO",1886206598688,1886206582688
+	
+	;Model::Cube__2__2, Model::Veranda_T2__1_
+	C: "OO",1886206584688,1886206582688
+	
+	;Model::Cube__3__1, Model::Veranda_T2__1_
+	C: "OO",1886206600688,1886206582688
+	
+	;Model::Cube__4__1, Model::Veranda_T2__1_
+	C: "OO",1886206590688,1886206582688
+	
+	;Material::DefaultHDMaterial, Model::Cube__1__2
+	C: "OO",1886143020112,1886206598688
+	
+	;Geometry::Scene, Model::Cube__1__2
+	C: "OO",1901078675008,1886206598688
+	
+	;Material::DefaultHDMaterial, Model::Cube__2__2
+	C: "OO",1886143020112,1886206584688
+	
+	;Geometry::Scene, Model::Cube__2__2
+	C: "OO",1901078675008,1886206584688
 	
 	;Material::DefaultHDMaterial, Model::Cube__3__1
-	C: "OO",1842777954592,1862265768736
+	C: "OO",1886143020112,1886206600688
 	
 	;Geometry::Scene, Model::Cube__3__1
-	C: "OO",1852916344384,1862265768736
+	C: "OO",1901078675008,1886206600688
 	
 	;Material::DefaultHDMaterial, Model::Cube__4__1
-	C: "OO",1842777954592,1862265756736
+	C: "OO",1886143020112,1886206590688
 	
 	;Geometry::Scene, Model::Cube__4__1
-	C: "OO",1852916344384,1862265756736
+	C: "OO",1901078675008,1886206590688
 }
 ;Takes section
 ;----------------------------------------------------
